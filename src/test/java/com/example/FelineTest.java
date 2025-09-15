@@ -39,7 +39,7 @@ public class FelineTest {
     void testGetKittensEdgeCases() {
         Feline feline = new Feline();
         assertEquals(Integer.MAX_VALUE, feline.getKittens(Integer.MAX_VALUE)); // максимальный размер
-        assertEquals(-Integer.MIN_VALUE, feline.getKittens(-Integer.MIN_VALUE)); // минимальное отрицательное значение
+        assertEquals(Integer.MIN_VALUE, feline.getKittens(Integer.MIN_VALUE)); // минимальное отрицательное значение
     }
     @Test
     void testGetKittensEdgeValues() {

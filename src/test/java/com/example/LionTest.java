@@ -33,7 +33,7 @@ public class LionTest {
 
     @Test
     void testDoesHaveMane() {
-        assertEquals(true, lion.doesHaveMane());  // Проверка наличия гривы
+        assertTrue(lion.doesHaveMane());  // Проверка наличия гривы
     }
 
     @Test
